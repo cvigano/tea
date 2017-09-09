@@ -125,7 +125,7 @@ CREATE TABLE tx_tea_domain_model_testimonial (
 
 	teabeverage int(11) unsigned DEFAULT '0' NOT NULL,
 
-	date_of_posting int(11) unsigned DEFAULT '0' NOT NULL,
+	date_of_posting datetime DEFAULT '0000-00-00 00:00:00',
 	number_of_consumed_cups int(11) DEFAULT '0' NOT NULL,
 	text text NOT NULL,
 
